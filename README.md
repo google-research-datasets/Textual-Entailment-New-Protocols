@@ -1,0 +1,2 @@
+# Textual-Entailment-New-Protocols
+The NLI dataset contains 1) input sentences and short paragraphs from Wikipedia articles licensed for public use by the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA) and the GNU Free Documentation License (GFDL); 2) sentences written by annotators from Crowd Compute's Austing-based team of annotators that either contradict, entail, or are neutral with respect to input sentences or paragraphs from a factual perspective (collected in order to train systems to predict the relationship between two pieces of text). 
