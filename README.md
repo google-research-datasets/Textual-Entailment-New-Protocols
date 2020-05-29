@@ -7,8 +7,7 @@ https://arxiv.org/abs/2004.11997 \
 **Collecting Entailment Data for Pretraining: New Protocols and Negative Results** \
 by Samuel R. Bowman, Jennimaria Palomaki, Livio Baldini Soares, and Emily Pitler
 
-Under the `data/` directory, there are five datasets, corresponding to the
-datasets described in the paper: `base`, `paragraph`, `edit_premise`,
+The `data/` directory contains the five datasets described in the paper: `base`, `paragraph`, `edit_premise`,
 `edit_other` and `contrast`.
 
 Each of the five datasets is split into a training set of 8,500 examples and a
@@ -27,7 +26,7 @@ capable of loading MNLI:
   the .jsonl version of the original MNLI 1.0 data release.
 
 
-Unlike the original MNLI data release, we do not distribute a pre-parsed version
+Unlike the original MNLI data release, we do not distribute a syntactically-parsed version
 of this data. This results in many blank columns in the .tsv and .txt files.
 
 The .jsonl versions of each dataset contain two fields not found in the original MNLI data release:
@@ -52,8 +51,13 @@ public use by the Creative Commons Attribution-ShareAlike 3.0 Unported License
 @article{Bowman2020EntailmentNewProtocols,
   title={Collecting Entailment Data for Pretraining: New Protocols and Negative Results},
   author={Samuel R. Bowman and Jennimaria Palomaki and Livio Baldini Soares and Emily Pitler},
-  journal={ArXiv},
-  year={2020},
-  volume={abs/2004.11997}
+  journal={arXiv preprint 2004.11997},
+  year={2020}
 }
 ```
+
+## Experiments
+
+Instructions for reproducing the experiments reported in the paper are available here:
+
+https://github.com/nyu-mll/jiant/tree/nli-data
