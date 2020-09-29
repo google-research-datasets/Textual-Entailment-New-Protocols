@@ -48,11 +48,11 @@ public use by the Creative Commons Attribution-ShareAlike 3.0 Unported License
 ## Citation
 
 ```bibtex
-@article{Bowman2020EntailmentNewProtocols,
+@inproceedings{Bowman2020EntailmentNewProtocols,
   title={Collecting Entailment Data for Pretraining: New Protocols and Negative Results},
   author={Samuel R. Bowman and Jennimaria Palomaki and Livio Baldini Soares and Emily Pitler},
-  journal={arXiv preprint 2004.11997},
-  year={2020}
+  year={2020},
+  booktitle={Proceedings of EMNLP}
 }
 ```
 
